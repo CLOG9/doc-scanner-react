@@ -10,6 +10,7 @@ const App: React.FC = () => {
   );
   const videoConstraints = {
     facingMode: { exact: "environment" },
+    width: window.innerWidth - 10,
   };
 
   const handleDeviceChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
