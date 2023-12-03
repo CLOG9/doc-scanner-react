@@ -21,6 +21,7 @@ const App: React.FC = () => {
   }, [selectedDevice]);
 
   const startStream = async (device: string) => {
+    console.log(device);
     // Simulated logic for starting the camera stream
     // Use the device information to configure the stream
     // Set the stream using setStream
@@ -50,6 +51,7 @@ const App: React.FC = () => {
   // };
 
   const handleUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(event);
     // Simulated logic for handling photo upload, processing photos, and updating UI
     // Use React state to manage UI updates
   };
@@ -60,6 +62,7 @@ const App: React.FC = () => {
   };
 
   const handlePastClick = async () => {
+    setStream(null);
     // Simulated logic for reviewing and reprocessing past photos
     // Use React state to manage UI updates
   };
