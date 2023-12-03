@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, useEffect } from "react";
 import "./App.css"; // Assume you have a corresponding CSS file
@@ -38,15 +39,15 @@ const App: React.FC = () => {
     // Use React state to manage UI updates
   };
 
-  const handleFlashClick = async () => {
-    // Simulated logic for toggling torch/flashlight and updating UI
-    // Use React state to manage UI updates
-  };
+  // const handleFlashClick = async () => {
+  //   // Simulated logic for toggling torch/flashlight and updating UI
+  //   // Use React state to manage UI updates
+  // };
 
-  const handleQualityClick = () => {
-    // Simulated logic for toggling image quality (HD/SD) and updating UI
-    // Use React state to manage UI updates
-  };
+  // const handleQualityClick = () => {
+  //   // Simulated logic for toggling image quality (HD/SD) and updating UI
+  //   // Use React state to manage UI updates
+  // };
 
   const handleUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     // Simulated logic for handling photo upload, processing photos, and updating UI
